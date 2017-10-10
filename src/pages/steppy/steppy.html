@@ -1,0 +1,51 @@
+<!--
+  Generated template for the Steppy page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Steppy</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card (click)="toSteppyMapPage()">
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-8>
+            <img src="assets/img/map.png" alt="your image" width="100%" height="100%"/>
+            
+          </ion-col>
+          <ion-col col-4>
+            <img src="assets/img/weather.png" alt="your image" width="100%" height="100%"/>
+            
+          </ion-col>
+        </ion-row>
+      
+      </ion-grid>
+  </ion-card-content>
+
+  </ion-card>
+
+  <ion-card (click)="toSteppyGamePage()">
+    <ion-card-content>
+      <canvas #progressChart></canvas>
+      <h1 text-center><strong>70%</strong></h1>
+      <h1 text-center>Recommand Today <strong>3000</strong> steps</h1>
+      <h1 text-center>Today you already <strong>2400</strong> steps</h1>
+    </ion-card-content>
+  </ion-card>
+
+ <ion-card (click)="toSteppyGamePage()">
+    <ion-card-content>
+      <canvas #walkChart></canvas>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

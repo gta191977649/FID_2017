@@ -1,0 +1,40 @@
+page-steppy-people-detail {
+  ion-content {
+    padding: 0;
+    margin: 0;
+  }
+  #nopadding{
+    padding: 0;
+    margin: 0;
+  }
+  #profile_title {
+    background-color: black;
+    bottom: 5%;
+    color: white;
+    font-family: Roboto;
+    font-size: 1.8em;
+    left: 0;
+    padding: 0.25em 0.75em;
+    position: absolute;
+  }
+  #shadow{
+    -webkit-box-shadow: inset 0px -3px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px -3px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: inset 0px -3px 10px -2px rgba(0,0,0,0.75);
+  }
+  .scroll-content {
+    margin-top: 0 !important;
+  }
+  #profile_head{
+    color:white;
+  }
+  /*
+  ion-header, .toolbar-background {
+    background-color: initial !important;
+    // background-color: rgba(0,0,0,0) !important;
+    &:after {
+      height: 0  !important;
+    }
+  }
+  */
+}

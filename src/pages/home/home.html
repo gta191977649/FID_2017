@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title ><h1><ion-icon name="home"></ion-icon> Home</h1></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-6>
+            <ion-card text-center (click)="toHealth()" class="headerStyle">
+              <ion-icon name="heart" item-start style="zoom:3.0;"></ion-icon>
+              <h1>Health</h1>
+          </ion-card>
+        </ion-col>
+        <ion-col col-6>
+              <ion-card text-center (click)="toReminder()" class="headerStyle">
+                  <ion-icon name="md-notifications" item-start style="zoom:3.0;"></ion-icon>
+              <h1 >Reminder</h1>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+          <ion-col col-6>
+              <ion-card text-center (click)="toSteppy()" class="headerStyle">
+                  <ion-icon name="md-walk" item-start style="zoom:3.0;"></ion-icon>
+              <h1 >Steppy</h1>
+          </ion-card>
+        </ion-col>
+        <ion-col col-6>
+            <ion-card text-center  (click)="toSetting()" class="headerStyle">
+                <ion-icon name="md-settings" item-start style="zoom:3.0;"></ion-icon>
+            <h1 >Setting</h1>
+        </ion-card>
+      </ion-col>
+
+      </ion-row>
+    </ion-grid>
+
+
+
+
+</ion-content>
