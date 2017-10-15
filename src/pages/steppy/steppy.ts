@@ -84,7 +84,7 @@ export class Steppy {
             "#3498db",
             "#FFFFFF",
           ],
-          data: [70,30]
+          data: [100,0]
         }]
       }
     });

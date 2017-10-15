@@ -30,14 +30,14 @@
                     <ion-row center>
                       <ion-col text-center>
                           <h1>Energy</h1>
-                          <h2>60 KJ</h2>
+                          <h2>80 KJ</h2>
                       </ion-col>
                       <ion-col text-center>
-                          <img src="assets/img/prog.png" alt="your image" width="100%" height="100%"/>
+                          <img src="assets/img/pg_100.png" alt="your image" width="100%" height="100%"/>
                       </ion-col>
                       <ion-col text-center>
                           <h1>Distance</h1>
-                          <h2>3 KM</h2>
+                          <h2>4 KM</h2>
                       </ion-col>
                     </ion-row>
 
@@ -50,7 +50,7 @@
                             <h1 id="Goal"><strong>Goal</strong></h1>
                             <h1 id="Goal">3000 steps</h1>
                             <h1 id="Goal"><strong>Current</strong></h1>
-                            <h1 id="Goal">2400 steps</h1>
+                            <h1 id="Goal">3021 steps</h1>
                         </ion-col>
                         <ion-col text-center>
 
@@ -59,12 +59,25 @@
                 </ion-grid>
                 <ion-list>
                     <ion-item>
+                        <ion-thumbnail item-start>
+                          <img src="assets/img/user.png">
+                        </ion-thumbnail>
+                        <ion-row (click)="toPeopleWalk()">
+                            <ion-col>
+                              You
+                            </ion-col>
+                            <ion-col text-right>
+                              100%
+                            </ion-col>
+                        </ion-row>
+                      </ion-item>
+                    <ion-item>
                       <ion-thumbnail item-start>
                         <img src="assets/img/user.png">
                       </ion-thumbnail>
                       <ion-row (click)="toPeopleWalk()">
                           <ion-col>
-                            Niki
+                            Tommy
                           </ion-col>
                           <ion-col text-right>
                             65%
@@ -78,7 +91,7 @@
                         </ion-thumbnail>
                         <ion-row (click)="toPeopleWalk()">
                             <ion-col>
-                              Miku
+                              Mike
                             </ion-col>
                             <ion-col text-right>
                               15%
@@ -92,7 +105,7 @@
                           </ion-thumbnail>
                           <ion-row (click)="toPeopleWalk()">
                               <ion-col>
-                                Yamato
+                                Jack
                               </ion-col>
                               <ion-col text-right>
                                 45%
@@ -106,7 +119,7 @@
                             </ion-thumbnail>
                             <ion-row (click)="toPeopleNoWalk()">
                                 <ion-col>
-                                  Mashiro
+                                  Ben
                                 </ion-col>
                                 <ion-col text-right>
                                   0%
